@@ -1,0 +1,14 @@
+{
+  "latest": {
+    "release": "1.8.9"
+  },
+  "versions": [
+    {
+      "id": "1.8.9",
+      "type": "release",
+      "url": "https://raw.githubusercontent.com/BloomProjects/bloom-resources/refs/heads/main/java17/manifest/version/1.8.9.json",
+      "time": "2025-02-05T12:50:49+00:00",
+      "releaseTime": "2025-02-05T12:41:17+00:00"
+    }
+  ]
+}
