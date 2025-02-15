@@ -895,6 +895,16 @@
           "size": 126093
         }
       }
+    },
+    {
+      "name": "org.ow2.asm:asm-tree:9.7.1",
+      "downloads": {
+        "artifact": {
+          "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar",
+          "sha1": "3a53139787663b139de76b627fca0084ab60d32c",
+          "size": 51939
+        }
+      }
     }
   ],
   "logging": {
