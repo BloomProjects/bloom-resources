@@ -887,16 +887,6 @@
       "name": "com.paulscode:soundsystem:20120107"
     },
     {
-      "name": "net.minecraft:launchwrapper:1.12",
-      "downloads": {
-        "artifact": {
-          "url": "https://libraries.minecraft.net/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar",
-          "sha1": "111e7bea9c968cdb3d06ef4632bf7ff0824d0f36",
-          "size": 32999
-        }
-      }
-    },
-    {
       "name": "org.ow2.asm:asm:9.7.1",
       "downloads": {
         "artifact": {
