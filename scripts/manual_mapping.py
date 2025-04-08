@@ -19,7 +19,7 @@ REGEX_MAPPING = fr"{MAPPING_TYPE}_\d+_[a-zA-Z]+"
 REGEX_PARAMS = r"p_\w+_\w+_"
 
 # Load mapping to write
-with open(f"../mappings/extended/{MAPPING_FILE}", "r") as f:
+with open(f"../mappings/{MAPPING_FILE}", "r") as f:
     reader = csv.DictReader(f)
     mapping_lines = [row for row in reader]
 
@@ -62,7 +62,7 @@ for obfed_name in be_replaced_names:
         with open(path_file, "w") as f:
             f.write(code)
 
-    with open(f"../mappings/extended/{MAPPING_FILE}", "w", newline='') as f:
+    with open(f"../mappings/{MAPPING_FILE}", "w", newline='') as f:
         fieldnames = ['param', 'name', 'side']
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()

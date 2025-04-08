@@ -1,62 +1,52 @@
-import os, re, csv
+import os
+import re
+import csv
+from tqdm import tqdm
 
-file_path = os.path.dirname(os.path.realpath(__file__))
-javafiles = [os.path.join(root, name)
-             for root, dirs, files in os.walk(file_path)
-             for name in files
-             if name.endswith((".java"))]
-clean_func = [x 
-              for x in [re.findall(r'\bp_\w+_\w+', open(i, "r").read()) for i in javafiles] 
-              if x]
+MAPPING_TYPE = "params" # fields, methods, params
+MAPPING_NAME = "params.csv"
 
-flattened = []
-for item in clean_func:
-    if isinstance(item, list): flattened.extend(item) 
-    else: flattened.append(item)
+REGEX_FIND = ""
 
-obf_need = list(dict.fromkeys(list(set(flattened))))
+if MAPPING_TYPE == "params":
+    REGEX_FIND = r"p_\d+_\d+_"
+elif MAPPING_TYPE == "field":
+    REGEX_FIND = r"field_\d+_\w+"
+else:
+    REGEX_FIND = r"func_\d+_\w+"
+
+JAVA_FILES_FOLDER = ".."
+
+def get_java_files():
+    path_project = os.path.abspath(os.path.join(os.getcwd(), JAVA_FILES_FOLDER))
+    return [os.path.join(dirpath, f) for dirpath, dirnames, files in os.walk(path_project) for f in files if f.endswith('.java')]
+
+def get_mappings():
+    with open(MAPPING_NAME, "r") as f:
+        csv_reader = csv.reader(f, delimiter=',')
+        return list(csv_reader)
+
+files = get_java_files()
+mappings = get_mappings()
+
+mappings_kv = {}
+
+for item in mappings:
+    mappings_kv[item[0]] = item[1]
+
+for file_path in tqdm(files):
+    with open(file_path, "r") as f:
+        file_text = f.read()
+
+    found = re.findall(REGEX_FIND, file_text, re.MULTILINE)
     
-# Read the methods file
-with open(file_path + '\\49_params.csv', 'r', newline='') as file:
-    reader = csv.DictReader(file)
-    
-    # Convert the reader object to a list of dictionaries
-    methods = [row for row in reader]
+    for item in found:
+        if item not in mappings_kv:
+            continue
 
-list_methods = []
-for i in obf_need:
-    for m in methods:
-        if m["param"] == i:
-            list_methods.append(m)
-            
-# Create a new list to preserve order
-ul = []
-for item in list_methods:
-    if item not in ul:
-        ul.append(item)
-  
-with open(file_path + '\\params.csv', 'a', newline='') as file:
-    fieldnames = ['param', 'name', 'side']
-    writer = csv.DictWriter(file, fieldnames=fieldnames)
-    
-    writer.writeheader()
-    writer.writerows(ul) 
+        name = mappings_kv[item]
 
-o = 0
-for i in ul:
-    for f in javafiles:
-        # Read the file
-        with open(f, 'r') as file:
-            content = file.read()
-            
-        if(i["param"] not in content): continue
+        file_text = file_text.replace(item, name)
 
-        # Replace all occurrences of strings starting with old_prefix
-        modified_content = content.replace(i["param"], i["name"])
-
-        # Write the modified content back to the file
-        with open(f, 'w') as file:
-            file.write(modified_content)
-    o+=1
-    print(f"Replaced all occurrences starting with '{i['param']}' with '{i['name']}' with side {i['side']}. {o} / {len(ul)} Passed")
-    
+    with open(file_path, "w") as f:
+        f.write(file_text)
