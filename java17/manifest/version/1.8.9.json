@@ -62,12 +62,12 @@
       }
     },
     {
-      "name": "org.lwjgl:lwjgl:3.3.3",
+      "name": "com.github.BloomProjects:LWJGL-Layer:9ff69737d9",
       "downloads": {
         "artifact": {
-          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/3.3.3/lwjgl-3.3.3.jar",
-          "sha1": "29589b5f87ed335a6c7e7ee6a5775f81f97ecb84",
-          "size": 785029
+          "url": "https://jitpack.io/com/github/BloomProjects/LWJGL-Layer/9ff69737d9/LWJGL-Layer-9ff69737d9.jar",
+          "sha1": "5e4e0ea5501d8d2088076c3294eb5914dc8f2e4e",
+          "size": 2066889
         }
       }
     },
@@ -180,16 +180,6 @@
       }
     },
     {
-      "name": "org.lwjgl:lwjgl-glfw:3.3.3",
-      "downloads": {
-        "artifact": {
-          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.3.3/lwjgl-glfw-3.3.3.jar",
-          "sha1": "efa1eb78c5ccd840e9f329717109b5e892d72f8e",
-          "size": 135546
-        }
-      }
-    },
-    {
       "name": "org.lwjgl:lwjgl-glfw:3.3.3:natives-linux",
       "rules": [
         {
@@ -298,16 +288,6 @@
       }
     },
     {
-      "name": "org.lwjgl:lwjgl-openal:3.3.3",
-      "downloads": {
-        "artifact": {
-          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.3.3/lwjgl-openal-3.3.3.jar",
-          "sha1": "daada81ceb5fc0c291fbfdd4433cb8d9423577f2",
-          "size": 110586
-        }
-      }
-    },
-    {
       "name": "org.lwjgl:lwjgl-openal:3.3.3:natives-linux",
       "rules": [
         {
@@ -412,16 +392,6 @@
           "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.3.3/lwjgl-openal-3.3.3-natives-windows-x86.jar",
           "sha1": "87b8d5050e3adb46bb58fe1cb2669a4a48fce10d",
           "size": 638424
-        }
-      }
-    },
-    {
-      "name": "org.lwjgl:lwjgl-opengl:3.3.3",
-      "downloads": {
-        "artifact": {
-          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.3.3/lwjgl-opengl-3.3.3.jar",
-          "sha1": "02f6b0147078396a58979125a4c947664e98293a",
-          "size": 929192
         }
       }
     },
