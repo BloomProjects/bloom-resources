@@ -1,7 +1,7 @@
 {
   "id": "BloomClient",
   "family": "1.8",
-  "time": "2025-02-14T12:26:29.343Z",
+  "time": "2025-04-09T06:44:16.332Z",
   "releaseTime": "2015-12-03T09:24:39Z",
   "type": "release",
   "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userProperties ${user_properties} --userType ${user_type}",
@@ -43,9 +43,9 @@
       "name": "com.github.BloomProjects:LWJGL-Layer:9ff69737d9",
       "downloads": {
         "artifact": {
-          "url": "https://jitpack.io/com/github/BloomProjects/LWJGL-Layer/9ff69737d9/LWJGL-Layer-9ff69737d9.jar",
-          "sha1": "5e4e0ea5501d8d2088076c3294eb5914dc8f2e4e",
-          "size": 2066889
+          "url": "https://jitpack.io/com/github/BloomProjects/LWJGL-Layer/9ff69737d9/LWJGL-Layer-9ff69737d9-all.jar",
+          "sha1": "a47be66eb6216eba132b424d9b0dc5b72242981b",
+          "size": 2064760
         }
       }
     },
@@ -740,15 +740,14 @@
       }
     },
     {
+      "name": "com.google.guava:failureaccess:1.0.2",
       "downloads": {
         "artifact": {
-          "path": "com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar",
+          "url": "https://libraries.minecraft.net/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar",
           "sha1": "c4a06a64e650562f30b7bf9aaec1bfed43aca12b",
-          "size": 4740,
-          "url": "https://libraries.minecraft.net/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar"
+          "size": 4740
         }
-      },
-      "name": "com.google.guava:failureaccess:1.0.2"
+      }
     },
     {
       "name": "org.apache.logging.log4j:log4j-api:2.24.1",
@@ -791,48 +790,44 @@
       }
     },
     {
+      "name": "com.paulscode:codecjorbis:20101023",
       "downloads": {
         "artifact": {
-          "path": "com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar",
+          "url": "https://libraries.minecraft.net/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar",
           "sha1": "c73b5636faf089d9f00e8732a829577de25237ee",
-          "size": 103871,
-          "url": "https://libraries.minecraft.net/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar"
+          "size": 103871
         }
-      },
-      "name": "com.paulscode:codecjorbis:20101023"
+      }
     },
     {
+      "name": "com.paulscode:codecwav:20101023",
       "downloads": {
         "artifact": {
-          "path": "com/paulscode/codecwav/20101023/codecwav-20101023.jar",
+          "url": "https://libraries.minecraft.net/com/paulscode/codecwav/20101023/codecwav-20101023.jar",
           "sha1": "12f031cfe88fef5c1dd36c563c0a3a69bd7261da",
-          "size": 5618,
-          "url": "https://libraries.minecraft.net/com/paulscode/codecwav/20101023/codecwav-20101023.jar"
+          "size": 5618
         }
-      },
-      "name": "com.paulscode:codecwav:20101023"
+      }
     },
     {
+      "name": "com.paulscode:libraryjavasound:20101123",
       "downloads": {
         "artifact": {
-          "path": "com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar",
+          "url": "https://libraries.minecraft.net/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar",
           "sha1": "5c5e304366f75f9eaa2e8cca546a1fb6109348b3",
-          "size": 21679,
-          "url": "https://libraries.minecraft.net/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar"
+          "size": 21679
         }
-      },
-      "name": "com.paulscode:libraryjavasound:20101123"
+      }
     },
     {
+      "name": "com.paulscode:soundsystem:20120107",
       "downloads": {
         "artifact": {
-          "path": "com/paulscode/soundsystem/20120107/soundsystem-20120107.jar",
+          "url": "https://libraries.minecraft.net/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar",
           "sha1": "419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6",
-          "size": 65020,
-          "url": "https://libraries.minecraft.net/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar"
+          "size": 65020
         }
-      },
-      "name": "com.paulscode:soundsystem:20120107"
+      }
     },
     {
       "name": "org.ow2.asm:asm:9.7.1",

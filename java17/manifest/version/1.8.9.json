@@ -65,9 +65,9 @@
       "name": "com.github.BloomProjects:LWJGL-Layer:9ff69737d9",
       "downloads": {
         "artifact": {
-          "url": "https://jitpack.io/com/github/BloomProjects/LWJGL-Layer/9ff69737d9/LWJGL-Layer-9ff69737d9.jar",
-          "sha1": "5e4e0ea5501d8d2088076c3294eb5914dc8f2e4e",
-          "size": 2066889
+          "url": "https://jitpack.io/com/github/BloomProjects/LWJGL-Layer/9ff69737d9/LWJGL-Layer-9ff69737d9-all.jar",
+          "sha1": "a47be66eb6216eba132b424d9b0dc5b72242981b",
+          "size": 2064760
         }
       }
     },
