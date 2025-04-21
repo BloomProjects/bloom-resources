@@ -62,12 +62,12 @@
       }
     },
     {
-      "name": "com.github.BloomProjects:LWJGL-Layer:9ff69737d9",
+      "name": "com.github.BloomProjects:LWJGL-Layer:9f6425913b",
       "downloads": {
         "artifact": {
-          "url": "https://jitpack.io/com/github/BloomProjects/LWJGL-Layer/9ff69737d9/LWJGL-Layer-9ff69737d9-all.jar",
-          "sha1": "a47be66eb6216eba132b424d9b0dc5b72242981b",
-          "size": 2064760
+          "url": "https://jitpack.io/com/github/BloomProjects/LWJGL-Layer/9f6425913b/LWJGL-Layer-9f6425913b-all.jar",
+          "sha1": "e1a89c866aa0f0e921e415c331706d63c468fa68",
+          "size": 2064796
         }
       }
     },
