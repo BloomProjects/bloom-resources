@@ -1,7 +1,7 @@
 {
   "id": "BloomClient",
   "family": "1.8",
-  "time": "2025-04-09T06:44:16.332Z",
+  "time": "2025-04-21T10:43:56.159Z",
   "releaseTime": "2015-12-03T09:24:39Z",
   "type": "release",
   "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userProperties ${user_properties} --userType ${user_type}",
@@ -40,12 +40,12 @@
       }
     },
     {
-      "name": "com.github.BloomProjects:LWJGL-Layer:9ff69737d9",
+      "name": "com.github.BloomProjects:LWJGL-Layer:9f6425913b",
       "downloads": {
         "artifact": {
-          "url": "https://jitpack.io/com/github/BloomProjects/LWJGL-Layer/9ff69737d9/LWJGL-Layer-9ff69737d9-all.jar",
-          "sha1": "a47be66eb6216eba132b424d9b0dc5b72242981b",
-          "size": 2064760
+          "url": "https://jitpack.io/com/github/BloomProjects/LWJGL-Layer/9f6425913b/LWJGL-Layer-9f6425913b-all.jar",
+          "sha1": "e1a89c866aa0f0e921e415c331706d63c468fa68",
+          "size": 2064796
         }
       }
     },
@@ -840,23 +840,6 @@
       }
     }
   ],
-  "downloads": {
-    "client": {
-      "url": "https://launcher.mojang.com/v1/objects/3870888a6c3d349d3771a3e9d16c9bf5e076b908/client.jar",
-      "sha1": "3870888a6c3d349d3771a3e9d16c9bf5e076b908",
-      "size": 8461484
-    },
-    "server": {
-      "url": "https://launcher.mojang.com/v1/objects/b58b2ceb36e01bcd8dbf49c8fb66c55a9f0676cd/server.jar",
-      "sha1": "b58b2ceb36e01bcd8dbf49c8fb66c55a9f0676cd",
-      "size": 8320755
-    },
-    "windows_server": {
-      "url": "https://launcher.mojang.com/v1/objects/5143618265b8a2d1d28bcadf206b7327738c2670/windows_server.exe",
-      "sha1": "5143618265b8a2d1d28bcadf206b7327738c2670",
-      "size": 8714995
-    }
-  },
   "assetIndex": {
     "totalSize": 114885064,
     "id": "1.8",
