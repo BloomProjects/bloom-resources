@@ -44,8 +44,8 @@
       "downloads": {
         "artifact": {
           "url": "https://repo.bloomprojects.lol/snapshots/me/toidicakhia/LWJGL-Layer/3.3.6/LWJGL-Layer-3.3.6.jar",
-          "sha1": "4a1b8e547bf0c15ea3a96e5a4a04d5deffe782ab",
-          "size": 2281643
+          "sha1": "a4fbf8c7e589bcb1da80b46fdfeea708ed0fcc11",
+          "size": 2524385
         }
       }
     },
@@ -62,8 +62,8 @@
       "downloads": {
         "artifact": {
           "url": "https://repo.bloomprojects.lol/snapshots/me/toidicakhia/LWJGL-Layer/3.3.6/LWJGL-Layer-3.3.6-natives-linux-x64.jar",
-          "sha1": "361c23230c2b12bf74470ff88f89dac8959f5e20",
-          "size": 1321494
+          "sha1": "b6e2a095aecc824e2f3ecd0e6b8519b17776e917",
+          "size": 1839816
         }
       }
     },
@@ -79,9 +79,9 @@
       ],
       "downloads": {
         "artifact": {
-          "url": "https://repo.bloomprojects.lol/snapshots/me/toidicakhia/LWJGL-Layer/3.3.6/LWJGL-Layer-3.3.6-natives-macos.jar-x64",
-          "sha1": "7acad9b43e905b31e88021141b9e669ac0916dfe",
-          "size": 1058139
+          "url": "https://repo.bloomprojects.lol/snapshots/me/toidicakhia/LWJGL-Layer/3.3.6/LWJGL-Layer-3.3.6-natives-macos-x64.jar",
+          "sha1": "f1cb2697163a2e27ca3f5717b238859e06f2976f",
+          "size": 1450665
         }
       }
     },
@@ -98,8 +98,8 @@
       "downloads": {
         "artifact": {
           "url": "https://repo.bloomprojects.lol/snapshots/me/toidicakhia/LWJGL-Layer/3.3.6/LWJGL-Layer-3.3.6-natives-macos-arm64.jar",
-          "sha1": "9c2a44ebfd88d32c572d5c533d673e25c695046d",
-          "size": 934103
+          "sha1": "03b420ed250d26c1c2de5e7e318a683d93f0721d",
+          "size": 1278179
         }
       }
     },
@@ -116,8 +116,8 @@
       "downloads": {
         "artifact": {
           "url": "https://repo.bloomprojects.lol/snapshots/me/toidicakhia/LWJGL-Layer/3.3.6/LWJGL-Layer-3.3.6-natives-windows-x64.jar",
-          "sha1": "524fd0d6a166a019e61eb21ed5b0de92aff1a185",
-          "size": 1484976
+          "sha1": "52e4dade82229518316f2b6461211a6cdc58aca4",
+          "size": 2053162
         }
       }
     },
@@ -134,8 +134,8 @@
       "downloads": {
         "artifact": {
           "url": "https://repo.bloomprojects.lol/snapshots/me/toidicakhia/LWJGL-Layer/3.3.6/LWJGL-Layer-3.3.6-natives-windows-arm64.jar",
-          "sha1": "69e78deb261423054e5726b5efc90a0757765d5d",
-          "size": 1279913
+          "sha1": "f117147424ddaa75ec5d7487c4d97707bbcdc8e3",
+          "size": 1673706
         }
       }
     },
@@ -152,8 +152,8 @@
       "downloads": {
         "artifact": {
           "url": "https://repo.bloomprojects.lol/snapshots/me/toidicakhia/LWJGL-Layer/3.3.6/LWJGL-Layer-3.3.6-natives-windows-x86.jar",
-          "sha1": "9b7bed4d05f08c54930c21e28b1ae092f2262287",
-          "size": 1353881
+          "sha1": "e8b22321999b0e39c0bfdee47f423a8e9560e5fd",
+          "size": 1837248
         }
       }
     },
