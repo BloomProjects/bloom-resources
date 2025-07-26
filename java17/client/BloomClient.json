@@ -268,10 +268,10 @@
       }
     },
     {
-      "name": "com.mojang:authlib:3.18.38",
+      "name": "com.mojang:authlib:6.0.57",
       "downloads": {
         "artifact": {
-          "url": "https://libraries.minecraft.net/com/mojang/authlib/3.18.38/authlib-3.18.38.jar",
+          "url": "https://libraries.minecraft.net/com/mojang/authlib/6.0.57/authlib-6.0.57.jar",
           "sha1": "016106b26bce62bda55bab42785b999e44d77ecb",
           "size": 118354
         }
