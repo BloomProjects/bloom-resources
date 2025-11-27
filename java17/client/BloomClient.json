@@ -10,16 +10,6 @@
   "tlauncherVersion": 0,
   "libraries": [
     {
-      "name": "io.netty:netty-all:5.0.0.Alpha2",
-      "downloads": {
-        "artifact": {
-          "url": "https://repo1.maven.org/maven2/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar",
-          "sha1": "09870d1ff5e71352077776a255f9d1494486af16",
-          "size": 2687733
-        }
-      }
-    },
-    {
       "name": "com.github.oshi:oshi-core:6.6.5",
       "downloads": {
         "artifact": {
