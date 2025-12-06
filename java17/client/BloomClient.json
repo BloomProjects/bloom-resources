@@ -338,46 +338,6 @@
       }
     },
     {
-      "name": "com.paulscode:codecjorbis:20101023",
-      "downloads": {
-        "artifact": {
-          "url": "https://libraries.minecraft.net/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar",
-          "sha1": "c73b5636faf089d9f00e8732a829577de25237ee",
-          "size": 103871
-        }
-      }
-    },
-    {
-      "name": "com.paulscode:codecwav:20101023",
-      "downloads": {
-        "artifact": {
-          "url": "https://libraries.minecraft.net/com/paulscode/codecwav/20101023/codecwav-20101023.jar",
-          "sha1": "12f031cfe88fef5c1dd36c563c0a3a69bd7261da",
-          "size": 5618
-        }
-      }
-    },
-    {
-      "name": "com.paulscode:libraryjavasound:20101123",
-      "downloads": {
-        "artifact": {
-          "url": "https://libraries.minecraft.net/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar",
-          "sha1": "5c5e304366f75f9eaa2e8cca546a1fb6109348b3",
-          "size": 21679
-        }
-      }
-    },
-    {
-      "name": "com.paulscode:soundsystem:20120107",
-      "downloads": {
-        "artifact": {
-          "url": "https://libraries.minecraft.net/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar",
-          "sha1": "419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6",
-          "size": 65020
-        }
-      }
-    },
-    {
       "name": "org.ow2.asm:asm:9.7.1",
       "downloads": {
         "artifact": {
