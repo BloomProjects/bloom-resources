@@ -3,8 +3,8 @@ import requests
 import hashlib
 
 REPO_SOURCES = [
-    "https://libraries.minecraft.net/",
     "https://repo1.maven.org/maven2/",
+    "https://libraries.minecraft.net/",
     "https://repo.bloomprojects.lol/snapshots/"
 ]
 
