@@ -231,17 +231,6 @@
             "name": "io.netty:netty-transport:4.2.7.Final"
         },
         {
-            "name": "io.netty:netty-all:4.2.6.Final",
-            "downloads": {
-                "artifact": {
-                    "url": "https://repo1.maven.org/maven2/io/netty/netty-all/4.2.6.Final/netty-all-4.2.6.Final.jar",
-                    "sha1": "fbfc5dc48f9d1028eb5609f356effe30dcc6ab98",
-                    "size": 4946,
-                    "path": "io/netty/netty-all/4.2.6.Final/netty-all-4.2.6.Final.jar"
-                }
-            }
-        },
-        {
             "name": "com.github.oshi:oshi-core:6.9.0",
             "downloads": {
                 "artifact": {
