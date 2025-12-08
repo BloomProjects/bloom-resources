@@ -149,6 +149,25 @@
         {
             "downloads": {
                 "artifact": {
+                    "path": "io/netty/netty-transport-native-epoll/4.2.7.Final/netty-transport-native-epoll-4.2.7.Final-linux-riscv64.jar",
+                    "sha1": "5fafee6fbc00979f81513172b4a618c3f2aec51a",
+                    "size": 37684,
+                    "url": "https://repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.2.7.Final/netty-transport-native-epoll-4.2.7.Final-linux-riscv64.jar"
+                }
+            },
+            "name": "io.netty:netty-transport-native-epoll:4.2.7.Final:linux-riscv64",
+            "rules": [
+                {
+                    "action": "allow",
+                    "os": {
+                        "name": "linux"
+                    }
+                }
+            ]
+        },
+        {
+            "downloads": {
+                "artifact": {
                     "path": "io/netty/netty-transport-native-kqueue/4.2.7.Final/netty-transport-native-kqueue-4.2.7.Final-osx-aarch_64.jar",
                     "sha1": "e5a0feef41410c8a5ae00c6cb4e0c99bd0aded6a",
                     "size": 27122,
