@@ -43,5 +43,14 @@ for library in data["libraries"]:
 with open("java17/manifest/version/1.8.9.json", "w") as file:
     json.dump(data, file, indent=4)
     
+# copy libraries to client/BloomClient.json
+with open("java17/client/BloomClient.json", "r") as file:
+    client_data = json.load(file)
+    
+client_data["libraries"] = data["libraries"]
+
+with open("java17/client/BloomClient.json", "w") as file:
+    json.dump(client_data, file, indent=4)
+    
 session.close()
 

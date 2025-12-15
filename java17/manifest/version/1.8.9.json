@@ -436,13 +436,13 @@
             }
         },
         {
-            "name": "com.mojang:authlib:7.0.61",
+            "name": "com.mojang:authlib:3.18.38",
             "downloads": {
                 "artifact": {
-                    "url": "https://libraries.minecraft.net/com/mojang/authlib/7.0.61/authlib-7.0.61.jar",
-                    "sha1": "efee1e6b54e863108576eb3b3ae71144626aaefc",
-                    "size": 116084,
-                    "path": "com/mojang/authlib/7.0.61/authlib-7.0.61.jar"
+                    "url": "https://libraries.minecraft.net/com/mojang/authlib/3.18.38/authlib-3.18.38.jar",
+                    "sha1": "016106b26bce62bda55bab42785b999e44d77ecb",
+                    "size": 118354,
+                    "path": "com/mojang/authlib/3.18.38/authlib-3.18.38.jar"
                 }
             }
         },
@@ -509,17 +509,6 @@
                     "sha1": "5eec0c392661dee8a366baec17e8896900dd978f",
                     "size": 30232,
                     "path": "org/apache/logging/log4j/log4j-slf4j2-impl/2.25.2/log4j-slf4j2-impl-2.25.2.jar"
-                }
-            }
-        },
-        {
-            "name": "org.slf4j:slf4j-api:2.0.17",
-            "downloads": {
-                "artifact": {
-                    "url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar",
-                    "sha1": "d9e58ac9c7779ba3bf8142aff6c830617a7fe60f",
-                    "size": 69908,
-                    "path": "org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar"
                 }
             }
         }
